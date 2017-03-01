@@ -6,15 +6,15 @@ This is a replica of the optional air flow sensor module for use with the high v
 
 My home, built in 2005, has two Carrier HVAC systems, one for each floor.  Each system includes a Carrier branded electronic air cleaner unit that I determined was originally manufactured by Trion.  Each unit utilizes a power supply that converts the AC voltage from the wall (i.e. 110VAC) to a high DC voltage (i.e. 10,000VDC or more).  As designed, the high voltage part of a unit is only intended to operate when the HVAC system's blower fan is on and moving air through the system.  My guess is that this is necessary to avoid the build-up of ozone.  Irrespective, a switching mechanism is expected to be utilized to only energize the high voltage part of the air cleaner at appropriate times.  In my units, this was achieved by the installation of an air flow sensor module in each unit when it was initially installed.  Unfortunately, both modules failed within about two years of installation.  In both cases, the failure mode was that the thermistor disc, which senses air flow, literally fell off of its leads, presumably due to thermal stress.
 
-![High voltage DC power supply main PCB](https://github.com/ccooper21/air_flow_sensor_module/raw/master/images/High voltage DC power supply.jpg)
+![High voltage DC power supply main PCB](https://github.com/ccooper21/air_flow_sensor_module/raw/master/README_images/High%20voltage%20DC%20power%20supply.jpg)
 
 *This photo shows the main PCB of the high voltage DC power supply.  The pigtail is for the high voltage output.  I blew the soldered in fuse, so I replaced it with a fuse holder and a removable fuse.  The 2x3 pin connector for the air flow sensor module is visible in the bottom right corner.*
 
-![Front of the original air flow sensor module PCB](https://github.com/ccooper21/air_flow_sensor_module/raw/master/images/Original air flow sensor module - Front.jpg)
+![Front of the original air flow sensor module PCB](https://github.com/ccooper21/air_flow_sensor_module/raw/master/README_images/Original%20air%20flow%20sensor%20module%20-%20Front.jpg)
 
 *This photo shows the front of the original air flow sensor PCB minus the failed thermistor.  I let the magic smoke out of the LM358 IC during one of my experiments, so I replaced it with a socket and a new IC.  The pads for the thermistor can be seen on the left side in the middle.*
 
-![Back of the original air flow sensor module PCB](https://github.com/ccooper21/air_flow_sensor_module/raw/master/images/Original air flow sensor module - Back.jpg)
+![Back of the original air flow sensor module PCB](https://github.com/ccooper21/air_flow_sensor_module/raw/master/README_images/Original%20air%20flow%20sensor%20module%20-%20Back.jpg)
 
 *This photo shows the back of the original air flow sensor PCB.*
 
@@ -24,7 +24,7 @@ On several occasions, without success, I have tried to find suitable replacement
 
 When I realized that my air cleaners were no longer working as expected, I investigated and found both failed thermistor discs in the power supply tray of their respective units.  The thermistors are quite small and the their leads originally covered most of each disc's faces.  Hence, unfortunately, there are no markings to provide a hint as to the manufacturer or specifications.
 
-![Failed thermistor discs](https://github.com/ccooper21/air_flow_sensor_module/raw/master/images/Failed thermistor discs.jpg)
+![Failed thermistor discs](https://github.com/ccooper21/air_flow_sensor_module/raw/master/README_images/Failed%20thermistor%20discs.jpg)
 
 *This photo shows the failed thermistor discs and their relative size.*
 
