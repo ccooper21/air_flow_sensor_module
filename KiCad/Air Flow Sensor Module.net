@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:/work/air_flow_sensor_module/KiCad/Air Flow Sensor Module.sch")
-    (date "2/23/2017 1:40:20 AM")
+    (date "3/7/2017 2:17:02 AM")
     (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -41,7 +41,7 @@
       (tstamp 58A69144))
     (comp (ref R2)
       (value 68R)
-      (footprint Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P20.32mm_Horizontal)
+      (footprint Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 58A691BF))
